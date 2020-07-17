@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ghent Area Ministry</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body class="d-flex flex-column text-dark min-vh-100">
+    <header class="border-bottom">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light px-0 bg-transparent">
+                <a class="navbar-brand f-work-sans-700" href="/">GAM Logo Here</a>
+                <button class="navbar-toggler border-0 pr-0" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/who-we-are">Who we Are</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/how-to-help">How to Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pr-0" href="/contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="flex-grow-1 d-flex flex-column">
+        {{ content|safe }}
+        <div class="bg-light mt-auto">
+            <div class="container py-3">
+                <p class="text-center mb-0 font-italic">"He has told you, O mortal, what is good; and what does the Lord require of you but to do justice, and to love kindness, and to walk humbly with your God?" <strong>&mdash;Micah 6:8</strong></p>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-dark text-white">
+        <div class="container py-5">
+            <div class="text-right">
+                <p>Ghent Area Ministry</p>
+                <p>1301 Colonial Avenue, Suite 2</p>
+                <p>Norfolk, VA 23517</p>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</body>
+</html>
